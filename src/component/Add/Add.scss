@@ -1,0 +1,23 @@
+.addtransaction
+{
+    p{
+        font-weight: 600;
+    }
+    form{
+        
+        input{
+            margin-top: 5px;
+            width: 98%;
+            height: 25px;
+        }
+        button{
+            width: 100%;
+            border: none;
+            margin-top: 5px;
+            color: white;
+            height: 40px;
+            background-color: rgb(72, 84, 172);
+            cursor: pointer;
+        }
+    }
+}

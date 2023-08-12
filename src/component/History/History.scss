@@ -1,0 +1,40 @@
+.history {
+  p {
+    text-transform: capitalize;
+  }
+  .card
+  {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+    .transaction,.red {
+        background-color: white;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 0px 15px;
+        border-right: 8px solid #16d53f;
+        margin: 10px 0px;
+        
+        
+      }
+      .red {
+        
+        border-right: 8px solid red;
+        
+        
+      }
+      .removebtn{
+        position: absolute;
+        right:-30px ;
+        width: 25px;
+        height:25px;
+        background-color: red;
+        border: none;
+        color: white;
+      }
+  }
+}
